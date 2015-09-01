@@ -1,0 +1,26 @@
+<VBBSolution name="VBB">
+	<LAYOUT currentView="1" >
+	<VIEW id="1">
+		<PANE>[TestResistorBridge_4Test1]Source0.SRC</PANE>
+	</VIEW>
+	<VIEW id="2">
+		<PANE>[TestResistorBridge_4Test1]Breadboard0.VBB</PANE>
+		<PANE>[TestResistorBridge_4Test1]Source0.SRC</PANE>
+	</VIEW>
+	<VIEW id="3">
+		<PANE>[TestResistorBridge_4Test1]Breadboard0.VBB</PANE>
+		<PANE>[TestResistorBridge_4Test1]Source0.SRC</PANE>
+	</VIEW>
+	</LAYOUT>
+<PROJECTS>
+<PROJECT>TestResistorBridge_4Test1.SIM</PROJECT>
+<REFERENCES>
+<VBB-EXCLUDES>
+</VBB-EXCLUDES>
+<USER-INCLUDES>
+</USER-INCLUDES>
+<WEB-INCLUDES>
+</WEB-INCLUDES>
+</REFERENCES>
+</PROJECTS>
+</VBBSolution>

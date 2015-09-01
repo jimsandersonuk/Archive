@@ -1,0 +1,26 @@
+<VBBSolution name="New Menu -VBB">
+	<LAYOUT currentView="1" >
+	<VIEW id="1">
+		<PANE>[Compact_LCD_Menu]Breadboard0.VBB</PANE>
+	</VIEW>
+	<VIEW id="2">
+		<PANE>[Compact_LCD_Menu]Breadboard0.VBB</PANE>
+		<PANE>[Compact_LCD_Menu]Source0.SRC</PANE>
+	</VIEW>
+	<VIEW id="3">
+		<PANE>[Compact_LCD_Menu]Breadboard0.VBB</PANE>
+		<PANE>[Compact_LCD_Menu]Source0.SRC</PANE>
+	</VIEW>
+	</LAYOUT>
+<PROJECTS>
+<PROJECT>Compact_LCD_Menu.SIM</PROJECT>
+<REFERENCES>
+<VBB-EXCLUDES>
+</VBB-EXCLUDES>
+<USER-INCLUDES>
+</USER-INCLUDES>
+<WEB-INCLUDES>
+</WEB-INCLUDES>
+</REFERENCES>
+</PROJECTS>
+</VBBSolution>

@@ -1,0 +1,7 @@
+<SOURCECODE-PROJECT type="SourceCode" name="Source0.SRC" language="ARDUINO" library="False" codegen=""  connection="USB" device="Droidino" devmode="True" classpath=""  > 
+	<SOURCE-FILES>
+		<SOURCE>BareBones.java</SOURCE>
+	</SOURCE-FILES>
+	<DesignObjects>
+</DesignObjects>
+	</SOURCECODE-PROJECT>
