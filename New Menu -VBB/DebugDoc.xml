@@ -1,0 +1,84 @@
+<DEBUG>
+<HEAP>
+<OBJECT id="0" type="BareBones" >
+<object name="lcd" type="Lmuvium/compatibility/arduino/LiquidCrystal;">#1</object>
+<array name="PositionTrack" type="int[]" >#2</array>
+<int name="storeTargetTrack" >0</int>
+<int name="storeStartTrack" >0</int>
+<String name="str1" >0</String>
+<String name="str2" >0</String>
+<String name="str3" >0</String>
+<String name="str4" >0</String>
+<String name="str5" >0</String>
+<String name="str6" >0</String>
+<int name="sensorVal" >0</int>
+<array name="arrayCalibrate" type="int[]" >#3</array>
+<boolean name="isTrackCalibration" >false</boolean>
+<int name="currentStepPosition" >0</int>
+<array name="storeProgTracks" type="int[]" >#4</array>
+<boolean name="chkOverwrite" >false</boolean>
+<boolean name="programmingMode" >false</boolean>
+<boolean name="programmingModeMoveForward" >true</boolean>
+<boolean name="isDebugMode" >true</boolean>
+<int name="lcd_key" >0</int>
+<int name="adc_key_in" >0</int>
+<int name="adc_key_prev" >0</int>
+<int name="key" >-1</int>
+<int name="lastKey" >0</int>
+<int name="readAnalog" >0</int>
+<boolean name="newMenu" >true</boolean>
+<int name="runs" >0</int>
+<int name="lastRun" >0</int>
+<int name="checkMenu" >0</int>
+<int name="currentMenuItem" >0</int>
+<boolean name="stayInMenu" >true</boolean>
+<boolean name="isReleased" >false</boolean>
+<long name="stepperLastMoveTime" >0</long>
+<int name="mainDiff" >0</int>
+<int name="overshootDestination" >-1</int>
+<boolean name="tableTargetHead" >false</boolean>
+<int name="tableTargetPosition" >0</int>
+<boolean name="newTargetLocation" >false</boolean>
+<boolean name="inMotionToNewTarget" >false</boolean>
+<boolean name="isTurntableHead" >true</boolean>
+<boolean name="isTurntableHeadChanged" >true</boolean>
+<int name="currentTrack" >1</int>
+<int name="newTrack" >1</int>
+<boolean name="displayRotating" >false</boolean>
+<boolean name="displayRotatingCW" >true</boolean>
+<boolean name="isYesNo" >false</boolean>
+<String name="overwriteHeader" >0</String>
+</OBJECT>
+<OBJECT id="1" type="muvium.compatibility.arduino.LiquidCrystal" >
+</OBJECT>
+<ARRAY id="2" type="int[]" length="7" >
+<int index="0" >0</int>
+<int index="1" >710</int>
+<int index="2" >800</int>
+<int index="3" >890</int>
+<int index="4" >2310</int>
+<int index="5" >2400</int>
+<int index="6" >2490</int>
+</ARRAY><ARRAY id="3" type="int[]" length="5" >
+<int index="0" >0</int>
+<int index="1" >0</int>
+<int index="2" >0</int>
+<int index="3" >0</int>
+<int index="4" >0</int>
+</ARRAY><ARRAY id="4" type="int[]" length="6" >
+<int index="0" >0</int>
+<int index="1" >0</int>
+<int index="2" >0</int>
+<int index="3" >0</int>
+<int index="4" >0</int>
+<int index="5" >0</int>
+</ARRAY></HEAP>
+<THREADS>
+<THREAD>
+<FRAME class="BareBones" method="startupLCD" signature="()V" sourcePC="274"  ><object name="this" type="LBareBones;">#0</object>
+<String name="startupLCDHeader" >Peco Turntable</String>
+<String name="startupLCDFooter" >Indexed Tracks</String>
+</FRAME><FRAME class="BareBones" method="setup" signature="()V" sourcePC="72"  ><object name="this" type="LBareBones;">#0</object>
+</FRAME></THREAD>
+</THREADS>
+</DEBUG>
